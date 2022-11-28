@@ -1,24 +1,17 @@
-# Compiled Object files
-*.o
-*.obj
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Compiled Static libraries
-*.a
-*.lib
-
-# Executables
-*.exe
-
-# DUB
 .dub
 docs.json
 __dummy.html
 docs/
-
-# Code coverage
+/d-glfw-opengl-project-template
+d-glfw-opengl-project-template.so
+d-glfw-opengl-project-template.dylib
+d-glfw-opengl-project-template.dll
+d-glfw-opengl-project-template.a
+d-glfw-opengl-project-template.lib
+d-glfw-opengl-project-template-test-*
+*.exe
+*.o
+*.obj
 *.lst
+bin/
+lib/

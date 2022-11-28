@@ -1,0 +1,21 @@
+{
+    "authors": [
+        "rillki"
+    ],
+    "copyright": "Copyright © 2022, rillki",
+    "dependencies": {
+        "bindbc-glfw": "~>1.0.1",
+        "bindbc-opengl": "~>1.0.3"
+    },
+    "description": "D and GLFW/OpenGL project template.",
+    "license": "MIT",
+    "name": "d-glfw-opengl-project-template",
+    "targetPath": "bin",
+    "versions": [
+        "GLFW_33",
+        "GL_41",
+        "GL_AllowDeprecated"
+    ]
+}
+
+
