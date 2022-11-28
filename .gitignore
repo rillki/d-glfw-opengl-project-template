@@ -14,4 +14,7 @@ d-glfw-opengl-project-template-test-*
 *.obj
 *.lst
 bin/
-lib/
+
+
+
+
