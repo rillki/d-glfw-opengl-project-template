@@ -50,28 +50,28 @@ void main() {
         return;
     }
 
-    // glViewport(0, 0, wWidth, wHeight);
+    glViewport(0, 0, wWidth, wHeight);
     glfwSetInputMode(windowHandle, GLFW_STICKY_KEYS, true);
+    glfwSwapInterval(1);
 
-    bool quit = false;
-    while(!quit) {
+    while(!glfwWindowShouldClose(windowHandle)) {
         // PROCESS EVENTS
         glfwPollEvents();
         if(glfwGetKey(windowHandle, GLFW_KEY_Q) == GLFW_PRESS) {
-            quit = true;
+            break;
         }
 
         // UPDATE
         // ...
 
         // RENDER
-        // glClearColor(0, 0, 0, 0);
-        // glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-        // {
-        //     // draw
-        //     // ...
-        // }
-        // glfwSwapBuffers(windowHandle);
+        glClearColor(0, 0.5, 0.5, 0);
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        {
+            // draw
+            // ...
+        }
+        glfwSwapBuffers(windowHandle);
     }
 }
 
