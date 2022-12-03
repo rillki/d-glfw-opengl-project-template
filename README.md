@@ -10,6 +10,9 @@ Check out the [`dub.json`](dub.json) and [`source/libloader.d`](source/libloader
 ### Dependencies
 D uses the [bindbc-sdl](https://github.com/BindBC/bindbc-glfw) and [bindbc-opengl](https://github.com/BindBC/bindbc-opengl) packages. It is handled by DUB automatically. Please, make sure you have installed the libraries mentioned above. 
 
+### Note for Windows users
+You don't need to install GLFW. `glfw3.dll` comes with this repository. It may be found in the [`libs`](libs/) folder.
+
 Modify your config file:
 ```
 // dub.json
