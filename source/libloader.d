@@ -67,7 +67,9 @@ bool load_opengl() {
             writefln("OpenGL library not found!");
             break;
         default:
+            import bindbc.loader: errors;
             writefln("Unknown error! Could not load OpenGL library! Error code: %s", ret);
+            writefln("Other errors: %s", errors);
             break;
     }
 
