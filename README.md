@@ -20,7 +20,7 @@ Modify your config file:
     "bindbc-glfw": "~>1.0.1",
     "bindbc-opengl": "~>1.0.3"
 },
-"versions": ["GLFW_33", "GL_41", "GL_AllowDeprecated"]
+"versions": ["GLFW_33", "GL_33", "GL_AllowDeprecated"]
 ```
 ```
 // dub.sdl
