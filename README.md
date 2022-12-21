@@ -26,7 +26,7 @@ Modify your config file:
 // dub.sdl
 dependency "bindbc-glfw" version="~>1.0.1"
 dependency "bindbc-opengl" version="~>1.0.3"
-versions "GLFW_33" "GL_41" "GL_AllowDeprecated"
+versions "GLFW_33" "GL_33" "GL_AllowDeprecated"
 ```
 
 ### Compiling and running
