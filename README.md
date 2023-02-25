@@ -36,6 +36,6 @@ dub --build=release
 `--build=release` is optional. `dub` will compile and run the project.
 
 ### LICENSE
-All code is licensed under MIT.
+All code is licensed under BSL software license.
 
 
