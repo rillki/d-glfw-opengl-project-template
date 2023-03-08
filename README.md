@@ -15,7 +15,7 @@ D uses the [bindbc-glfw](https://github.com/BindBC/bindbc-glfw) and [bindbc-open
 ### Note for Windows users
 You don't need to install GLFW. `glfw3.dll` comes with this repository. It may be found in the [`libs`](libs/) folder.
 
-Modify your config file:
+### Modify your config file
 ```
 // dub.json
 "dependencies": {
